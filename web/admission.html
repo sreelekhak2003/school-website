@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission - Class Wise Seats</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #c8e6ff, #ffffff);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            border: 1px solid #b0c4de;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0d47a1;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            padding: 14px;
+            text-align: center;
+            font-size: 18px;
+            border-bottom: 1px solid #b0c4de;
+        }
+
+        th {
+            background: #0d47a1;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+
+        tr:hover {
+            background: #e3f2fd;
+            transition: 0.3s;
+        }
+
+        .available {
+            color: green;
+            font-weight: bold;
+        }
+
+        .full {
+            color: red;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Class-Wise Admission Seat Availability</h1>
+
+        <table>
+            <tr>
+                <th>Class</th>
+                <th>Total Seats</th>
+                <th>Filled Seats</th>
+                <th>Available Seats</th>
+            </tr>
+
+            <tr>
+                <td>Pre-KG</td>
+                <td>40</td>
+                <td>32</td>
+                <td class="available">8</td>
+            </tr>
+
+            <tr>
+                <td>LKG</td>
+                <td>40</td>
+                <td>28</td>
+                <td class="available">12</td>
+            </tr>
+
+            <tr>
+                <td>UKG</td>
+                <td>40</td>
+                <td>36</td>
+                <td class="available">4</td>
+            </tr>
+
+            <tr>
+                <td>1st Standard</td>
+                <td>45</td>
+                <td>45</td>
+                <td class="full">0 (Full)</td>
+            </tr>
+
+            <tr>
+                <td>2nd Standard</td>
+                <td>45</td>
+                <td>41</td>
+                <td class="available">4</td>
+            </tr>
+
+            <tr>
+                <td>3rd Standard</td>
+                <td>45</td>
+                <td>39</td>
+                <td class="available">6</td>
+            </tr>
+
+            <tr>
+                <td>4th Standard</td>
+                <td>45</td>
+                <td>45</td>
+                <td class="full">0 (Full)</td>
+            </tr>
+
+            <tr>
+                <td>5th Standard</td>
+                <td>45</td>
+                <td>38</td>
+                <td class="available">7</td>
+            </tr>
+
+            <tr>
+                <td>6th Standard</td>
+                <td>45</td>
+                <td>42</td>
+                <td class="available">3</td>
+            </tr>
+
+            <tr>
+                <td>7th Standard</td>
+                <td>45</td>
+                <td>45</td>
+                <td class="full">0 (Full)</td>
+            </tr>
+
+            <tr>
+                <td>8th Standard</td>
+                <td>45</td>
+                <td>40</td>
+                <td class="available">5</td>
+            </tr>
+
+            <tr>
+                <td>9th Standard</td>
+                <td>45</td>
+                <td>43</td>
+                <td class="available">2</td>
+            </tr>
+
+            <tr>
+                <td>10th Standard</td>
+                <td>45</td>
+                <td>45</td>
+                <td class="full">0 (Full)</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

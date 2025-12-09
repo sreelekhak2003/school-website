@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Website - Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('holy.jpg') no-repeat center center/cover;
+            height: 100vh;
+            color: #f5f5f5;
+        }
+        .overlay {
+            background: rgba(0, 30, 60, 0.55);
+            height: 100%;
+            width: 100%;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            padding: 20px;
+            font-size: 22px;
+            background: rgba(0, 0, 0, 0.35);
+            backdrop-filter: blur(4px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+        }
+        nav a, nav span {
+            text-decoration: none;
+            color: #ffdd57;
+            font-weight: bold;
+            padding: 10px 18px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: #ffdd57;
+            color: #1a237e;
+            box-shadow: 0 0 12px #ffdd57;
+        }
+        nav span {
+            background: rgba(255, 255, 255, 0.25);
+            color: white;
+        }
+        .center-text {
+            text-align: center;
+            margin-top: 18%;
+            font-size: 54px;
+            font-weight: bold;
+            color: #ffdd57;
+            text-shadow: 4px 4px 15px rgba(0,0,0,0.9);
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <nav>
+            <span>Home</span>
+            <a href="careers.html">Careers</a>
+            <a href="admission.html">Admission</a>
+            <a href="contact.html">Contact</a>
+            <a href="alumini.html">Alumini</a>
+            <a href="courses.html">Courses</a>
+            <a href="Gallery.html">Gallery</a>
+        </nav>
+
+        <div class="center-text">Welcome to Our School</div>
+    </div>
+</body>
+</html>
